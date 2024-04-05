@@ -19,13 +19,13 @@ A Rust library for the medal.tv REST API.
 
 Query every clip you've ever recorded!
 
-`MEDAL_TV_API_KEY=<api_key> cargo run --example get_all_clips`
+`MEDAL_TV_API_KEY=<api_key> MEDAL_TV_USER_ID=<user-id> cargo run --example get_all_clips`
 
 ```rust
 TODO
 ```
 
-For more examples, check out the [examples](https://github.com/goddtriffin/medal-tv-rs/blob/main/medal_tv_rs/examples) directory.
+For more examples, check out the [examples](https://github.com/goddtriffin/medal-tv-rs/blob/main/examples) directory.
 
 ## Developers
 
