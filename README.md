@@ -4,7 +4,7 @@
 [![Docs](https://docs.rs/medal-tv-rs/badge.svg)](https://docs.rs/medal-tv-rs)
 [![License](https://img.shields.io/crates/l/medal-tv-rs)](https://crates.io/crates/medal-tv-rs)
 
-A Rust library for the medal.tv REST API.
+A Rust library for the medal.tv API.
 
 ## Features
 
