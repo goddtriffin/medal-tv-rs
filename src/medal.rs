@@ -2,7 +2,7 @@ use reqwest::Client;
 
 pub const BASE_URL: &str = "https://developers.medal.tv/v1";
 
-#[allow(clippy::module_name_repetitions)]
+#[expect(clippy::module_name_repetitions)]
 #[derive(Debug, Clone)]
 pub struct MedalClient {
     pub(crate) client: Client,

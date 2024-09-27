@@ -1,8 +1,8 @@
-#[allow(clippy::module_name_repetitions)]
+#[expect(clippy::module_name_repetitions)]
 pub mod latest_payload;
-#[allow(clippy::module_name_repetitions)]
+#[expect(clippy::module_name_repetitions)]
 pub mod latest_payload_builder;
-#[allow(clippy::module_name_repetitions)]
+#[expect(clippy::module_name_repetitions)]
 pub mod latest_response;
 
 use crate::api::latest::latest_payload::LatestPayload;

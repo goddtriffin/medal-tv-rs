@@ -3,7 +3,7 @@ use reqwest::StatusCode;
 use std::fmt::{Debug, Formatter};
 use std::{error, fmt};
 
-#[allow(clippy::module_name_repetitions)]
+#[expect(clippy::module_name_repetitions)]
 #[derive(Debug)]
 pub enum MedalError {
     /// Error occurred while using the `reqwest` library.

@@ -30,3 +30,7 @@ test: ## runs tests
 	cargo clippy --tests
 	cargo test
 
+.PHONY: fix
+fix: ## fixes the codebase
+	cargo fix --allow-dirty
+	cargo clippy --fix --allow-dirty
