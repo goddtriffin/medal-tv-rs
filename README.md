@@ -1,4 +1,4 @@
-# yelp-fusion-rs
+# medal-tv-rs
 
 [![Version](https://img.shields.io/crates/v/medal-tv-rs)](https://crates.io/crates/medal-tv-rs)
 [![Docs](https://docs.rs/medal-tv-rs/badge.svg)](https://docs.rs/medal-tv-rs)
