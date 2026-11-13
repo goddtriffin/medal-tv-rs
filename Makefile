@@ -22,6 +22,7 @@ help: # Prints out help
 .PHONY: lint
 lint: ## lints the codebase using rustfmt and Clippy
 	cargo fmt
+	cargo clippy --workspace --all-targets --all-features -- -D warnings
 
 .PHONY: test
 test: ## runs tests
@@ -33,7 +34,7 @@ test: ## runs tests
 .PHONY: fix
 fix: ## fixes the codebase
 	cargo fix --allow-dirty --allow-staged
-	cargo clippy --fix --allow-dirty --allow-staged
+	cargo clippy --workspace --all-targets --all-features --fix --allow-dirty --allow-staged
 
 .PHONY: publish_dry_run
 publish_dry_run: ## dry run of publishing libraries to crates.io
